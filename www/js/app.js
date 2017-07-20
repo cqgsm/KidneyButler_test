@@ -83,8 +83,8 @@ angular.module('kidney', ['ionic', 'kidney.services', 'kidney.controllers', 'kid
                     Storage.set('USERNAME', data.phoneNo);
                   }
                 }, function (err) {
-                    console.log(err)
-                  })
+                  console.log(err)
+                })
 
                 var results = [];
                 var errs = [];
@@ -338,10 +338,10 @@ angular.module('kidney', ['ionic', 'kidney.services', 'kidney.controllers', 'kid
         alert(JSON.stringify(res));
       });
     }, function (err) {
-      console.log(err);
+      alert(JSON.stringify(res));
     })
 
-    
+
   })
 
   // --------路由, url模式设置----------------
