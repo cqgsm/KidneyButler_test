@@ -319,7 +319,7 @@ angular.module('kidney', ['ionic', 'kidney.services', 'kidney.controllers', 'kid
         'setBounceBackground'
       ]
       wx.config({
-        debug: false,
+        debug: true,
         appId: config.appId,
         timestamp: config.timestamp,
         nonceStr: config.nonceStr,
